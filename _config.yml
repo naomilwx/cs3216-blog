@@ -1,0 +1,15 @@
+# Site settings
+title: Naomi's CS3216 blog
+email: naomileowwx@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  naomilwx
+
+# Build settings
+markdown: kramdown
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
