@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/cs3216-blog" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  naomilwx
+facebook_username: naomi.leow.5
 
 # Build settings
 markdown: kramdown
