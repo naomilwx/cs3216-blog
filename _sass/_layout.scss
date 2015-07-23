@@ -3,6 +3,16 @@
    position:relative;
 }
 
+.head-banner {
+    padding-top: $header-height;
+    width: 100%;
+}
+
+.head-banner img {
+    width: 100%;
+    height: auto;
+}
+
 /**
  * Site header
  */
@@ -175,13 +185,13 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit;
-    padding-top: $header-height + $spacing-unit;
+    padding-top: $spacing-unit;
     padding-bottom: $footer-height + 2 * $spacing-unit;
 }
 
 .page-heading {
     font-size: 36px;
+    font-weight: bold;
 }
 
 .post-list {
@@ -202,7 +212,6 @@
     display: block;
     font-size: 24px;
 }
-
 
 
 /**

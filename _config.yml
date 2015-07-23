@@ -3,6 +3,7 @@ title: CS3216 Thoughts
 email: naomileowwx@gmail.com
 description: Collection of CS3216 related thoughts
 baseurl: "/cs3216-blog" # the subpath of your site, e.g. /blog/
+banner_image: "img/cover.png"
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 github_username:  naomilwx
 facebook_username: naomi.leow.5
