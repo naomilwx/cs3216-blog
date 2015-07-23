@@ -93,7 +93,12 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 0 $spacing-unit;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
 }
 
 .footer-heading {
@@ -110,15 +115,16 @@
 .footer-contact-box {
     font-size: 15px;
     color: $grey-color;
-    float: right;
 }
 
 .footer-contact-box ul{
     list-style: none;
+    text-align: center;
 }
 
 .footer-contact-box li{
     display: inline-block;
+    margin-left: $spacing-unit / 2;
 }
 
 
