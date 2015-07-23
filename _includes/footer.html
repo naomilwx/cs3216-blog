@@ -2,18 +2,26 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+   
 
     <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+
+      <div class="footer-col">
+       <p class="copy">&copy; {{ site.time | date: '%Y' }} Naomi Leow. Powered by <a href="http://jekyllrb.com">Jekyll</a>.</p>
       </div>
 
-      <div class="footer-col  footer-col-2">
+      <div class="footer-contact-box">
         <ul class="social-media-list">
+
+          <!-- {%if site.email %}
+          <li>
+            <a href="mailto:{{site.email}}">
+              <span class="icon  icon--email">
+                <svg viewBox="100 80 300 300"><path d="M101.3 141.6v228.9h0.3 308.4 0.8V141.6H101.3zM375.7 167.8l-119.7 91.5 -119.6-91.5H375.7zM127.6 194.1l64.1 49.1 -64.1 64.1V194.1zM127.8 344.2l84.9-84.9 43.2 33.1 43-32.9 84.7 84.7L127.8 344.2 127.8 344.2zM384.4 307.8l-64.4-64.4 64.4-49.3V307.8z"/></svg>
+              </span>
+          </li>
+          {% endif %} -->
+
           {% if site.github_username %}
           <li>
             <a href="https://github.com/{{ site.github_username }}">
@@ -22,8 +30,6 @@
                   <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
                 </svg>
               </span>
-
-              <span class="username">{{ site.github_username }}</span>
             </a>
           </li>
           {% endif %}
@@ -37,8 +43,6 @@
                     <path fill="#ffffff" d="m 11.03968,16.000001 v -6.19608 h 2.07973 l 0.31141,-2.41472 h -2.39114 v -1.54165 c 0,-0.69912 0.19414,-1.17555 1.19666,-1.17555 l 1.27866,-5.6e-4 v -2.15974 c -0.22114,-0.0294 -0.98017,-0.0952 -1.86324,-0.0952 -1.8435605,0 -3.1057105,1.12532 -3.1057105,3.19188 v 1.7808 h -2.08506 v 2.41472 h 2.08506 v 6.19608 H 11.03968 z"/>
                   </svg>
                 </span>
-
-              <span class="username">{{ site.facebook_username }}</span>
             </a>
 
           </li>
@@ -54,16 +58,15 @@
                 </svg>
               </span>
 
-              <span class="username">{{ site.twitter_username }}</span>
             </a>
           </li>
           {% endif %}
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-3">
+     <!--  <div class="footer-col  footer-col-3">
         <p class="text">{{ site.description }}</p>
-      </div>
+      </div> -->
     </div>
 
   </div>

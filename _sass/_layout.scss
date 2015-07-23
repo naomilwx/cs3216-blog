@@ -107,6 +107,21 @@
     margin-left: 0;
 }
 
+.footer-contact-box {
+    font-size: 15px;
+    color: $grey-color;
+    float: right;
+}
+
+.footer-contact-box ul{
+    list-style: none;
+}
+
+.footer-contact-box li{
+    display: inline-block;
+}
+
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
