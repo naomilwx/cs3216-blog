@@ -21,6 +21,10 @@ body {
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 
@@ -193,8 +197,8 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 28px;
-        height: 28px;
+        width: 30px;
+        height: 30px;
         vertical-align: middle;
 
         
