@@ -16,13 +16,16 @@ So then why would I go for CS3216 - one of the most notorious modules SoC has to
 What do I expect to learn
 --------------------------
 
-* Good UI design
+* **Good UI design**
+
 Good UI design is notoriously hard to master. Clearly horrible abominations abound, like *ahem* CORS bidding, myISIS, the SoC TSS claims... It's easy to critique the UI flaws of a particular application but actually being able to come up with something that is both intuitive and asthetically pleasing is rather challenging. Alright, it's easy to avoid the blatent sins of the NUS applications I mentioned, but certain flaws are not apparent until put to the test.
 
-* How to bring a good idea to fruition
+* **How to bring a good idea to fruition**
+
 A good idea counts for nothing if it's never implemented. So how do you successfully execute an idea given time and resource constrains?  
 
-* Working effectively in a team
+* **Working effectively in a team**
+
 By selection, CS3216 is supposed to comprise of students who are both motivated and capable; hence there should not be the scenario where you end up with a fraction of the team tanking the work of the rest. So this presents an opportunity to work in teams where everyone is able and willing to contribute something.
 How do you have a good distribution of work which best fits each team member's strengths and interests? 
 It's not likely that all the members of the team would have the same direction or end point all the time. How do you resolve such differences when they arise to the satisfaction of all parties? Also how do you identify miscommunications early and nip them in the bud?
